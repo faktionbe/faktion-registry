@@ -117,7 +117,7 @@ export function useVirtualize<O extends Object, C extends CursorPagination<O>>({
   const virtualItems = rowVirtualizer.getVirtualItems();
 
   useEffect(() => {
-    const [lastItem] = [...virtualItems].reverse();
+    const lastItem = virtualItems.at(-1);
 
     if (!lastItem) {
       return;
