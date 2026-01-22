@@ -8,37 +8,58 @@
       "type": "registry:component",
       "title": "Combobox",
       "description": "A combobox component",
-      "dependencies": ["cmdk", "lucide-react"],
-      "registryDependencies": ["command", "popover", "button"],
+      "dependencies": [
+        "cmdk",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "command",
+        "popover",
+        "button"
+      ],
       "files": [
         {
           "path": "registry/components/combobox.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "multi-combobox",
       "type": "registry:component",
       "title": "Multi Combobox",
       "description": "A multi combobox component",
-      "dependencies": ["cmdk", "lucide-react"],
-      "registryDependencies": ["badge", "command", "popover", "button"],
+      "dependencies": [
+        "cmdk",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "badge",
+        "command",
+        "popover",
+        "button"
+      ],
       "files": [
         {
           "path": "registry/components/multi-combobox.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "fab",
       "type": "registry:component",
       "title": "Floating Action Button",
       "description": "A floating action button component",
-      "dependencies": ["class-variance-authority"],
+      "dependencies": [
+        "class-variance-authority"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -52,8 +73,12 @@
       "type": "registry:component",
       "title": "Notification",
       "description": "A notification component",
-      "dependencies": ["class-variance-authority"],
-      "registryDependencies": ["@faktion/use-composition"],
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "@faktion/use-composition"
+      ],
       "files": [
         {
           "path": "registry/components/notification.tsx",
@@ -67,44 +92,65 @@
       "title": "Toggle",
       "description": "A toggle component",
       "dependencies": [],
-      "registryDependencies": ["@faktion/use-composition"],
+      "registryDependencies": [
+        "@faktion/use-composition"
+      ],
       "files": [
         {
           "path": "registry/components/toggle.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "color-picker",
       "type": "registry:component",
       "title": "Color Picker",
       "description": "A color picker component",
-      "dependencies": ["color", "lucide-react", "radix-ui"],
-      "registryDependencies": ["button", "input", "select"],
+      "dependencies": [
+        "color",
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "button",
+        "input",
+        "select"
+      ],
       "files": [
         {
           "path": "registry/components/color-picker.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "dropzone",
       "type": "registry:component",
       "title": "Dropzone",
       "description": "A dropzone component",
-      "dependencies": ["react-dropzone", "lucide-react"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "react-dropzone",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
       "files": [
         {
           "path": "registry/components/dropzone.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "radio-group",
@@ -123,52 +169,75 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "checkbox-group",
       "type": "registry:component",
       "title": "Checkbox Group",
       "description": "A checkbox group component",
-      "dependencies": ["@radix-ui/react-checkbox", "class-variance-authority"],
-      "registryDependencies": ["checkbox"],
+      "dependencies": [
+        "@radix-ui/react-checkbox",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "checkbox"
+      ],
       "files": [
         {
           "path": "registry/components/checkbox-group.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "country-combobox",
       "type": "registry:component",
       "title": "Country Combobox",
       "description": "A country combobox component",
-      "dependencies": ["@reacture-io/iso-locale", "react-country-flag"],
-      "registryDependencies": ["@faktion/combobox"],
+      "dependencies": [
+        "@reacture-io/iso-locale",
+        "react-country-flag"
+      ],
+      "registryDependencies": [
+        "@faktion/combobox"
+      ],
       "files": [
         {
           "path": "registry/components/country-combobox.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "language-combobox",
       "type": "registry:component",
       "title": "Language Combobox",
       "description": "A language combobox component",
-      "dependencies": ["@reacture-io/iso-locale", "iso-639-1"],
-      "registryDependencies": ["@faktion/combobox"],
+      "dependencies": [
+        "@reacture-io/iso-locale",
+        "iso-639-1"
+      ],
+      "registryDependencies": [
+        "@faktion/combobox"
+      ],
       "files": [
         {
           "path": "registry/components/language-combobox.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["forms"]
+      "categories": [
+        "forms"
+      ]
     },
     {
       "name": "actions",
@@ -176,44 +245,63 @@
       "title": "Actions",
       "description": "A actions component",
       "dependencies": [],
-      "registryDependencies": ["button", "tooltip"],
+      "registryDependencies": [
+        "button",
+        "tooltip"
+      ],
       "files": [
         {
           "path": "registry/components/actions.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "artifact",
       "type": "registry:component",
       "title": "Artifact",
       "description": "A artifact component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["button", "tooltip"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "tooltip"
+      ],
       "files": [
         {
           "path": "registry/components/artifact.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "branch",
       "type": "registry:component",
       "title": "Branch",
       "description": "A branch component",
-      "dependencies": ["ai", "lucide-react"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "ai",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
       "files": [
         {
           "path": "registry/components/branch.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "chain-of-thought",
@@ -224,51 +312,72 @@
         "@radix-ui/react-use-controllable-state",
         "lucide-react"
       ],
-      "registryDependencies": ["badge", "collapsible"],
+      "registryDependencies": [
+        "badge",
+        "collapsible"
+      ],
       "files": [
         {
           "path": "registry/components/chain-of-thought.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "code-block",
       "type": "registry:component",
       "title": "Code Block",
       "description": "A code block component",
-      "dependencies": ["react-syntax-highlighter", "lucide-react"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "react-syntax-highlighter",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
       "files": [
         {
           "path": "registry/components/code-block.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "conversation",
       "type": "registry:component",
       "title": "Conversation",
       "description": "A conversation component",
-      "dependencies": ["use-stick-to-bottom", "lucide-react"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "use-stick-to-bottom",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
       "files": [
         {
           "path": "registry/components/conversation.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "image",
       "type": "registry:component",
       "title": "Image",
       "description": "A image component",
-      "dependencies": ["ai"],
+      "dependencies": [
+        "ai"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -276,22 +385,32 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "inline-citation",
       "type": "registry:component",
       "title": "Inline Citation",
       "description": "A inline citation component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["badge", "carousel", "hover-card"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "badge",
+        "carousel",
+        "hover-card"
+      ],
       "files": [
         {
           "path": "registry/components/inline-citation.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "loader",
@@ -306,37 +425,54 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "message",
       "type": "registry:component",
       "title": "Message",
       "description": "A message component",
-      "dependencies": ["ai"],
-      "registryDependencies": ["avatar"],
+      "dependencies": [
+        "ai"
+      ],
+      "registryDependencies": [
+        "avatar"
+      ],
       "files": [
         {
           "path": "registry/components/message.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "prompt-input",
       "type": "registry:component",
       "title": "Prompt Input",
       "description": "A prompt input component",
-      "dependencies": ["ai", "lucide-react"],
-      "registryDependencies": ["button", "select", "textarea"],
+      "dependencies": [
+        "ai",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "select",
+        "textarea"
+      ],
       "files": [
         {
           "path": "registry/components/prompt-input.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "rating",
@@ -354,7 +490,9 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "reasoning",
@@ -365,21 +503,28 @@
         "@radix-ui/react-use-controllable-state",
         "lucide-react"
       ],
-      "registryDependencies": ["collapsible", "@faktion/response"],
+      "registryDependencies": [
+        "collapsible",
+        "@faktion/response"
+      ],
       "files": [
         {
           "path": "registry/components/reasoning.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "response",
       "type": "registry:component",
       "title": "Response",
       "description": "A response component",
-      "dependencies": ["streamdown"],
+      "dependencies": [
+        "streamdown"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -387,44 +532,61 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "sources",
       "type": "registry:component",
       "title": "Sources",
       "description": "A source component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["collapsible"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "collapsible"
+      ],
       "files": [
         {
           "path": "registry/components/sources.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "suggestion",
       "type": "registry:component",
       "title": "Suggestion",
       "description": "A suggestion component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["button", "scroll-area"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "scroll-area"
+      ],
       "files": [
         {
           "path": "registry/components/suggestion.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "status",
       "type": "registry:component",
       "title": "Status",
       "description": "A status component",
-      "dependencies": ["class-variance-authority"],
+      "dependencies": [
+        "class-variance-authority"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -432,119 +594,174 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "task",
       "type": "registry:component",
       "title": "Task",
       "description": "A task component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["collapsible"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "collapsible"
+      ],
       "files": [
         {
           "path": "registry/components/task.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "tool",
       "type": "registry:component",
       "title": "Tool",
       "description": "A tool component",
-      "dependencies": ["ai", "lucide-react"],
-      "registryDependencies": ["collapsible", "badge"],
+      "dependencies": [
+        "ai",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "collapsible",
+        "badge"
+      ],
       "files": [
         {
           "path": "registry/components/tool.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "web-preview",
       "type": "registry:component",
       "title": "Web Preview",
       "description": "A web preview component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["collapsible", "button", "input", "tooltip"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "collapsible",
+        "button",
+        "input",
+        "tooltip"
+      ],
       "files": [
         {
           "path": "registry/components/web-preview.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["chat"]
+      "categories": [
+        "chat"
+      ]
     },
     {
       "name": "column-header",
       "type": "registry:component",
       "title": "Column Header",
       "description": "A column header component",
-      "dependencies": ["@tanstack/react-table", "lucide-react"],
-      "registryDependencies": ["button", "dropdown-menu"],
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "dropdown-menu"
+      ],
       "files": [
         {
           "path": "registry/components/table/column-header.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["table"]
+      "categories": [
+        "table"
+      ]
     },
     {
       "name": "selectable-row",
       "type": "registry:component",
       "title": "Selectable Row",
       "description": "A selectable row component",
-      "dependencies": ["@tanstack/react-table"],
-      "registryDependencies": ["checkbox", "@faktion/radio-group"],
+      "dependencies": [
+        "@tanstack/react-table"
+      ],
+      "registryDependencies": [
+        "checkbox",
+        "@faktion/radio-group"
+      ],
       "files": [
         {
           "path": "registry/components/table/selectable-row.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["table"]
+      "categories": [
+        "table"
+      ]
     },
     {
       "name": "selectable-header",
       "type": "registry:component",
       "title": "Selectable Header",
       "description": "A selectable header component",
-      "dependencies": ["@tanstack/react-table"],
-      "registryDependencies": ["checkbox"],
+      "dependencies": [
+        "@tanstack/react-table"
+      ],
+      "registryDependencies": [
+        "checkbox"
+      ],
       "files": [
         {
           "path": "registry/components/table/selectable-header.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["table"]
+      "categories": [
+        "table"
+      ]
     },
     {
       "name": "pagination",
       "type": "registry:component",
       "title": "Pagination",
       "description": "A pagination component",
-      "dependencies": ["@tanstack/react-table"],
-      "registryDependencies": ["button", "select"],
+      "dependencies": [
+        "@tanstack/react-table"
+      ],
+      "registryDependencies": [
+        "button",
+        "select"
+      ],
       "files": [
         {
           "path": "registry/components/table/pagination.tsx",
           "type": "registry:component"
         }
       ],
-      "categories": ["table"]
+      "categories": [
+        "table"
+      ]
     },
     {
       "name": "data-table",
       "type": "registry:component",
       "title": "Data Table",
       "description": "A data table component",
-      "dependencies": ["@tanstack/react-table"],
+      "dependencies": [
+        "@tanstack/react-table"
+      ],
       "registryDependencies": [
         "table",
         "@faktion/pagination",
@@ -558,14 +775,18 @@
           "type": "registry:component"
         }
       ],
-      "categories": ["table"]
+      "categories": [
+        "table"
+      ]
     },
     {
       "name": "use-composition",
       "type": "registry:hook",
       "title": "Use Composition",
       "description": "A hook to extract children of a specific type from a composition",
-      "dependencies": ["react"],
+      "dependencies": [
+        "react"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -573,14 +794,19 @@
           "type": "registry:hook"
         }
       ],
-      "categories": ["hooks"]
+      "categories": [
+        "hooks"
+      ]
     },
     {
       "name": "use-file-download",
       "type": "registry:hook",
       "title": "Use File Download",
       "description": "A hook to download a binary date",
-      "dependencies": ["axios", "@tanstack/react-query"],
+      "dependencies": [
+        "axios",
+        "@tanstack/react-query"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -588,7 +814,9 @@
           "type": "registry:hook"
         }
       ],
-      "categories": ["hooks"]
+      "categories": [
+        "hooks"
+      ]
     },
     {
       "name": "use-download",
@@ -603,7 +831,29 @@
           "type": "registry:hook"
         }
       ],
-      "categories": ["hooks"]
+      "categories": [
+        "hooks"
+      ]
+    },
+    {
+      "name": "use-virtualize",
+      "type": "registry:hook",
+      "title": "Use Virtualize",
+      "description": "A hook to virtualize a list of items",
+      "dependencies": [
+        "@tanstack/react-query",
+        "@tanstack/react-virtual"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/hooks/use-virtualize.tsx",
+          "type": "registry:hook"
+        }
+      ],
+      "categories": [
+        "hooks"
+      ]
     },
     {
       "name": "microsoft-sso",
@@ -639,7 +889,9 @@
           "target": "docs/MICROSOFT-SSO.MD"
         }
       ],
-      "categories": ["recipes"]
+      "categories": [
+        "recipes"
+      ]
     }
   ]
 }
