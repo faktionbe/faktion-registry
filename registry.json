@@ -892,6 +892,59 @@
       "categories": [
         "recipes"
       ]
+    },
+    {
+      "name": "prompt-handler",
+      "type": "registry:file",
+      "title": "Prompt Handler",
+      "description": "A prompt handler package",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/recipes/packages/py-prompthandler/package.json",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/package.json"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/pyproject.toml",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/pyproject.toml"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/PROMPT-HANDLER.MD",
+          "type": "registry:file",
+          "target": "docs/PROMPT-HANDLER.MD"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/__init__.py",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/src/faktion/prompthandler/__init__.py"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/base.py",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/src/faktion/prompthandler/base.py"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/in_memory.py",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/src/faktion/prompthandler/in_memory.py"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/conftest.py",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/src/faktion/prompthandler/test/conftest.py"
+        },
+        {
+          "path": "registry/recipes/packages/py-prompthandler/test_in_memory.py",
+          "type": "registry:file",
+          "target": "packages/py-prompthandler/src/faktion/prompthandler/test/test_in_memory.py"
+        }
+      ],
+      "categories": [
+        "recipes"
+      ]
     }
   ]
 }
