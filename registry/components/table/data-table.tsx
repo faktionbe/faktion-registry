@@ -1,4 +1,4 @@
-import { type ComponentType } from 'react';
+import { type ComponentType,Fragment } from 'react';
 import {
   flexRender,
   type Row,
@@ -42,8 +42,8 @@ export const DataTable = <TData,>({
         })}>
         <Table>
           <TableHeader>
-            {table.getHeaderGroups().map((headerGroup) => (
-              <TableRow key={headerGroup.id}>
+            {table.getHeaderGroups().map((headerGroup,i) => (
+              <TableRow key={headerGroup.id + i}>
                 {headerGroup.headers.map((header) => (
                   <TableHead key={header.id}>
                     {header.isPlaceholder
@@ -59,10 +59,9 @@ export const DataTable = <TData,>({
           </TableHeader>
           <TableBody>
             {table.getRowModel().rows.length ? (
-              table.getRowModel().rows.map((row) => (
-                <>
+              table.getRowModel().rows.map((row, i) => (
+                <Fragment key={row.id + i}>
                   <TableRow
-                    key={row.id}
                     data-state={row.getIsSelected() && 'selected'}
                     data-clickable={typeof onRowClick === 'function'}
                     onClick={() => onRowClick?.(row)}>
@@ -82,7 +81,7 @@ export const DataTable = <TData,>({
                       </td>
                     </TableRow>
                   )}
-                </>
+                </Fragment>
               ))
             ) : (
               <TableRow>
