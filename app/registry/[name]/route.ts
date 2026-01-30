@@ -1,5 +1,5 @@
 import { promises as fs } from 'fs';
-import { type NextRequest,NextResponse } from 'next/server';
+import { type NextRequest, NextResponse } from 'next/server';
 import path from 'path';
 import { registryItemSchema } from 'shadcn/registry';
 
@@ -16,9 +16,10 @@ export const generateStaticParams = async () => {
 /**
  * Compares the token with the environment variable REGISTRY_AUTH_TOKEN. Environment variable is set in vercel.
  * @param token - The token to validate. (passed in the authorization header or query parameters)
- * @returns 
+ * @returns
  */
-const isValidToken = async (token: string|null) => token === process.env.REGISTRY_AUTH_TOKEN
+const isValidToken = async (token: string) =>
+  token === process.env.REGISTRY_AUTH_TOKEN;
 
 // This route shows an example for serving a component using a route handler.
 export async function GET(
@@ -26,16 +27,16 @@ export async function GET(
   { params }: { params: Promise<{ name: string }> }
 ) {
   try {
-    const authHeader = request.headers.get("authorization")
-    const token = authHeader?.replace("Bearer ", "")
-
-     // Or from query parameters.
-  const queryToken = request.nextUrl.searchParams.get("token")
-  const isValid = await isValidToken(token ?? queryToken)
-  // Check if token is valid.
-  if (!isValid) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
-  }
+    const authHeader = request.headers.get('authorization');
+    const token = authHeader?.replace('Bearer ', '');
+    if (!token) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+    const isValid = await isValidToken(token);
+    // Check if token is valid.
+    if (!isValid) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
 
     const { name } = await params;
     // Cache the registry import
