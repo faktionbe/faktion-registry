@@ -917,29 +917,29 @@
           "target": "docs/PROMPT-HANDLER.MD"
         },
         {
-          "path": "registry/recipes/packages/py-prompthandler/__init__.py",
+          "path": "registry/recipes/packages/py-prompthandler/src/faktion/prompthandler/__init__.py",
           "type": "registry:file",
           "target": "packages/py-prompthandler/src/faktion/prompthandler/__init__.py"
         },
         {
-          "path": "registry/recipes/packages/py-prompthandler/base.py",
+          "path": "registry/recipes/packages/py-prompthandler/src/faktion/prompthandler/base.py",
           "type": "registry:file",
           "target": "packages/py-prompthandler/src/faktion/prompthandler/base.py"
         },
         {
-          "path": "registry/recipes/packages/py-prompthandler/in_memory.py",
+          "path": "registry/recipes/packages/py-prompthandler/src/faktion/prompthandler/in_memory.py",
           "type": "registry:file",
           "target": "packages/py-prompthandler/src/faktion/prompthandler/in_memory.py"
         },
         {
-          "path": "registry/recipes/packages/py-prompthandler/conftest.py",
+          "path": "registry/recipes/packages/py-prompthandler/tests/conftest.py",
           "type": "registry:file",
-          "target": "packages/py-prompthandler/src/faktion/prompthandler/test/conftest.py"
+          "target": "packages/py-prompthandler/tests/conftest.py"
         },
         {
-          "path": "registry/recipes/packages/py-prompthandler/test_in_memory.py",
+          "path": "registry/recipes/packages/py-prompthandler/tests/test_in_memory.py",
           "type": "registry:file",
-          "target": "packages/py-prompthandler/src/faktion/prompthandler/test/test_in_memory.py"
+          "target": "packages/py-prompthandler/tests/test_in_memory.py"
         }
       ],
       "categories": [
