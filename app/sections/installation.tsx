@@ -25,7 +25,7 @@ Add a \`components.json\` file to your app with the following content:
     "@faktion": {
       "url": "https://registry.faktion.com/api/registry/bearer/{name}",
       "headers": {
-        "Authorization": "Bearer TOKEN_FROM_1PASSWORD"
+        "Authorization": "Bearer \${REGISTRY_AUTH_TOKEN}" // REGISTRY_AUTH_TOKEN stored in 1Password. Set in .env
       }
     }
   }
