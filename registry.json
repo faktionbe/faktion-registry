@@ -945,6 +945,397 @@
       "categories": [
         "recipes"
       ]
+    },
+    {
+      "name": "aws",
+      "type": "registry:file",
+      "title": "AWS Infrastructure",
+      "description": "An AWS Terraform infrastructure recipe",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/recipes/infrastructure/aws/AWS.md",
+          "type": "registry:file",
+          "target": "infrastructure/aws/AWS.md"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/environments/qa/terraform.tfvars",
+          "type": "registry:file",
+          "target": "infrastructure/aws/environments/qa/terraform.tfvars"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/alb/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/alb/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/alb/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/alb/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/alb/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/alb/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecr/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecr/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecr/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecr/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecr/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecr/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecs_cluster/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecs_cluster/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecs_cluster/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecs_cluster/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecs_cluster/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecs_cluster/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecs_service/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecs_service/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecs_service/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecs_service/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ecs_service/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ecs_service/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/lambda/sqs-orchestrator/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/lambda/sqs-orchestrator/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/lambda/sqs-orchestrator/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/lambda/sqs-orchestrator/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/lambda/sqs-orchestrator/placeholder-index.js",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/lambda/sqs-orchestrator/placeholder-index.js"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/lambda/sqs-orchestrator/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/lambda/sqs-orchestrator/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ml_accesses/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ml_accesses/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ml_accesses/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ml_accesses/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/ml_accesses/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/ml_accesses/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/rds/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/rds/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/rds/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/rds/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/rds/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/rds/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/resource_group/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/resource_group/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/resource_group/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/resource_group/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/resource_group/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/resource_group/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/s3/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/s3/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/s3/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/s3/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/s3/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/s3/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/s3_website/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/s3_website/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/s3_website/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/s3_website/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/s3_website/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/s3_website/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/secrets/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/secrets/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/secrets/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/secrets/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/secrets/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/secrets/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/security_group/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/security_group/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/security_group/output.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/security_group/output.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/security_group/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/security_group/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/sqs/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/sqs/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/sqs/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/sqs/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/sqs/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/sqs/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/vpc/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/vpc/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/vpc/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/vpc/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/modules/vpc/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/modules/vpc/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/aws/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/aws/variables.tf"
+        }
+      ],
+      "categories": [
+        "recipes"
+      ]
+    },
+    {
+      "name": "gcp",
+      "type": "registry:file",
+      "title": "GCP Infrastructure",
+      "description": "A Google Cloud Platform Terraform infrastructure recipe",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/recipes/infrastructure/gcp/GCP.md",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/GCP.md"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/environments/qa/backend.hcl",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/environments/qa/backend.hcl"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/environments/qa/terraform.tfvars",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/environments/qa/terraform.tfvars"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/setup-gcp.sh",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/setup-gcp.sh"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/cloud-run/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/cloud-run/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/cloud-run/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/cloud-run/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/cloud-run/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/cloud-run/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/database/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/database/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/database/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/database/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/database/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/database/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/networking/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/networking/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/networking/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/networking/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/networking/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/networking/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/redis/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/redis/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/redis/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/redis/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/redis/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/redis/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/secret-manager-secrets/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/secret-manager-secrets/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/secret-manager-secrets/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/secret-manager-secrets/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/secret-manager-secrets/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/secret-manager-secrets/variables.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/typesense/main.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/typesense/main.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/typesense/outputs.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/typesense/outputs.tf"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/typesense/startup.sh",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/typesense/startup.sh"
+        },
+        {
+          "path": "registry/recipes/infrastructure/gcp/modules/typesense/variables.tf",
+          "type": "registry:file",
+          "target": "infrastructure/gcp/modules/typesense/variables.tf"
+        }
+      ],
+      "categories": [
+        "recipes"
+      ]
     }
   ]
 }
