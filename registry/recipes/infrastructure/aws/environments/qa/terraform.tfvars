@@ -23,12 +23,12 @@ ecs_enable_exec    = true
 
 # ML Accesses
 ml_arns = [
-  "arn:aws:iam::018489564711:role/criusaiml-qa-ecs-execution-role",
-  "arn:aws:iam::018489564711:role/criusaiml-qa-ecs-task-role"
+  "arn:aws:iam::018489564711:role/faktion-qa-ecs-execution-role",
+  "arn:aws:iam::018489564711:role/faktion-qa-ecs-task-role"
 ]
 
 # SQS Orchestrator
 use_sqs_orchestrator = true
 local_dev_queues     = ["indy", "service"]
-request_queue_arn    = "arn:aws:sqs:eu-west-1:018489564711:criusaiml-qa-request-ml-task.fifo"
-response_queue_arn   = "arn:aws:sqs:eu-west-1:018489564711:criusaiml-qa-response-ml-task.fifo"
+request_queue_arn    = "arn:aws:sqs:eu-west-1:018489564711:faktion-qa-request-ml-task.fifo"
+response_queue_arn   = "arn:aws:sqs:eu-west-1:018489564711:faktion-qa-response-ml-task.fifo"

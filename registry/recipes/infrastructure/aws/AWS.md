@@ -1,6 +1,6 @@
 # AWS infrastructure (Terraform)
 
-**Registry recipe:** `aw-iac` — Terraform layout for a full-stack AWS deployment: VPC, public ALB for the API, internal ALB for the SQS worker, ECS Fargate (server + SQS services), RDS PostgreSQL, S3 (app assets + static site), ECR, Secrets Manager, optional SQS dev queues and a Lambda orchestrator.
+**Registry recipe:** `aws` — Terraform layout for a full-stack AWS deployment: VPC, public ALB for the API, internal ALB for the SQS worker, ECS Fargate (server + SQS services), RDS PostgreSQL, S3 (app assets + static site), ECR, Secrets Manager, optional SQS dev queues and a Lambda orchestrator.
 
 ## Requirements
 
